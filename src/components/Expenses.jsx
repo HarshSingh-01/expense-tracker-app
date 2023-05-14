@@ -1,4 +1,7 @@
 import ExpenseItem from "./ExpenseItem";
+import "./Expenses.css";
+import Card from "./Card";
+
 const expenses = [
   {
     id: "e1",
@@ -21,9 +24,9 @@ const expenses = [
   },
 ];
 
-const ExpenseItemList = () => {
+const Expenses = () => {
   return (
-    <div>
+    <Card className="expenses">
       {expenses.map((item) => (
         <ExpenseItem
           key={item.id}
@@ -33,8 +36,8 @@ const ExpenseItemList = () => {
           date={item.date}
         />
       ))}
-    </div>
+    </Card>
   );
 };
 
-export default ExpenseItemList;
+export default Expenses;

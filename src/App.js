@@ -1,5 +1,5 @@
 import "./styles.css";
-import ExpenseItemList from "./components/Expense/ExpenseItemList";
+import ExpenseItemList from "./components/ExpenseComponents/ExpenseItemList";
 
 export default function App() {
   return (

@@ -1,5 +1,5 @@
 import "./styles.css";
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
 export default function App() {
   return (
